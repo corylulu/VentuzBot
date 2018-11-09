@@ -1,0 +1,5 @@
+{
+    "token" : "<ENTER_DISCOD_TOKEN>",
+    "testMode": true,
+    "prefixes" : ["!", ":request:", "<:request:438094331551940611>", ":idea:", "<:idea:438099104376160267>"]
+}
