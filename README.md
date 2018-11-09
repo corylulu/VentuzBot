@@ -4,6 +4,7 @@
 
 ``` bash
 git clone https://github.com/corylulu/VentuzBot
+cd VentuzBot
 npm install
 ```
 
