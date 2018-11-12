@@ -54,7 +54,7 @@ client.on('message', async message => {
 });
 
 function makeRequest (discordMessage, type, message, user, channel, version) {
-  const host = testMode ? `http://${testHost}:${testPort}` : 'http://www.ventuz.com';
+  const host = testMode ? `http://${testHost}:${testPort}` : 'https://www.ventuz.com';
   const typeAbbr = type === 'bug' ? 'B' : 'F';
   const body = `<UserFeedback email="${user}@discord" version="${version}" type="${typeAbbr}">\r\n` +
                `CATEGORY: ${channel.encodeHTML()}\r\n` +
@@ -62,7 +62,7 @@ function makeRequest (discordMessage, type, message, user, channel, version) {
                `</UserFeedback>`;
 
   const postRequest = {
-    url: host + '/support/ventuzfeedback.aspx',
+    url: host + '/support/ventuzfeedback.php',
     body: body,
     headers: {
       'ver': version,
