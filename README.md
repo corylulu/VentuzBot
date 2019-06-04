@@ -4,12 +4,13 @@
 
 ``` bash
 git clone https://github.com/corylulu/VentuzBot
+cd VentuzBot
 npm install
 ```
 
 ## Configure
 
-Edit `config.json` and enter the Discord bots token. Also set the `testMode` to true/false to configure weather it should send requests to a local test environment or to the ventuz servers. 
+Edit `config.json` and enter the Discord bots **token**. Also set the **testMode** to **true**/**false** to configure weather it should send requests to a local test environment or to the Ventuz servers. 
 ```
 {
     "token" : "<ENTER_DISCORD_TOKEN>",
