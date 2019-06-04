@@ -63,3 +63,7 @@ typings/
 package-lock.json
 .eslintrc
 .vscode/
+config.json
+requestsSent.json
+start.bat
+config.json
